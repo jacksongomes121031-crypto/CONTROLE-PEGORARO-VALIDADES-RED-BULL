@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="theme-color"
+    content="#c40000"
+  >
+
+  <meta
+    name="description"
+    content="DEYCON - Red Bull Control Center"
+  >
+
+  <title>DEYCON | Red Bull Control Center</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+<body>
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
+
+  <header class="header">
+    <div class="hero-banner">
+      <img src="./login-bg.png" alt="" class="header-imagem">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <div class="hero-brand-left">
+          <img src="./grupo-pegoraro-logo-nitida.png" alt="Grupo Pegoraro DEYCON" class="hero-logo-image">
+          <span class="hero-brand-subtitle">GESTÃO DE CAMPO</span>
+        </div>
+        <div class="hero-center-all">
+          <span class="hero-kicker">GESTÃO DE CAMPO</span>
+          <h1>Controle de <b>Validades</b></h1>
+        </div>
+        <div class="hero-status-corner"><span class="status-dot"></span><span>Sistema online</span></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =====================================================
+       CONTEÚDO
+  ====================================================== -->
+
+  <main class="container">
+
+
+    <!-- ===================================================
+         INDICADOR DE PROCESSO
+    ==================================================== -->
+
+    <div class="processo">
+
+      <div class="processo-item ativo">
+
+        <div class="processo-numero">
+          01
+        </div>
+
+        <div>
+
+          <strong>
+            Equipe
+          </strong>
+
+          <small>
+            Responsável
+          </small>
+
+        </div>
+
+      </div>
+
+
+      <div class="processo-linha"></div>
+
+
+      <div class="processo-item">
+
+        <div class="processo-numero">
+          02
+        </div>
+
+        <div>
+
+          <strong>
+            Cliente
+          </strong>
+
+          <small>
+            Estabelecimento
+          </small>
+
+        </div>
+
+      </div>
+
+
+      <div class="processo-linha"></div>
+
+
+      <div class="processo-item">
+
+        <div class="processo-numero">
+          03
+        </div>
+
+        <div>
+
+          <strong>
+            Produtos
+          </strong>
+
+          <small>
+            Validades
+          </small>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="dashboard-grid">
+
+    <!-- ===================================================
+         EQUIPE
+    ==================================================== -->
+
+    <section class="card">
+
+      <div class="card-top">
+
+        <span class="card-number">
+          01
+        </span>
+
+        <span class="card-line"></span>
+
+        <span class="card-status">
+          EQUIPE
+        </span>
+
+      </div>
+
+
+      <div class="card-header">
+
+        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+
+        <div>
+
+          <h2>
+            Responsável pelo atendimento
+          </h2>
+
+          <p>
+            Selecione o supervisor e o vendedor responsável
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="campos-duplos">
+
+
+        <div class="campo">
+
+          <label for="supervisor">
+            Supervisor
+          </label>
+
+          <div class="input-box">
+
+            <span class="input-icon">
+              👤
+            </span>
+
+            <select id="supervisor">
+
+              <option value="">
+                Selecione o supervisor
+              </option>
+
+            </select>
+
+            <span class="select-arrow">
+              ⌄
+            </span>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="campo">
+
+          <label for="vendedor">
+            Vendedor
+          </label>
+
+          <div class="input-box">
+
+            <span class="input-icon">
+              🧑‍💼
+            </span>
+
+            <select
+              id="vendedor"
+              disabled
+            >
+
+              <option value="">
+                Selecione o vendedor
+              </option>
+
+            </select>
+
+            <span class="select-arrow">
+              ⌄
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="campo campo-data-registro">
+          <label for="dataRegistro">Data do registro</label>
+          <div class="input-box data-box">
+            <span class="input-icon">📅</span>
+            <input type="date" id="dataRegistro">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ===================================================
+         CLIENTE
+    ==================================================== -->
+
+    <section class="card">
+
+      <div class="card-top">
+
+        <span class="card-number">
+          02
+        </span>
+
+        <span class="card-line"></span>
+
+        <span class="card-status">
+          CLIENTE
+        </span>
+
+      </div>
+
+
+      <div class="card-header">
+
+        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/><path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2"/><path d="M10 21v-3h4v3"/></svg></div>
+
+        <div>
+
+          <h2>
+            Dados do estabelecimento
+          </h2>
+
+          <p>
+            Informe os dados do cliente visitado
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="campos-duplos">
+
+
+        <div class="campo">
+
+          <label for="cnpj">
+            CNPJ
+          </label>
+
+          <div class="input-box">
+
+            <span class="input-icon">
+              #
+            </span>
+
+            <input
+              type="text"
+              id="cnpj"
+              maxlength="18"
+              inputmode="numeric"
+              autocomplete="off"
+              placeholder="00.000.000/0000-00"
+            >
+            <button type="button" id="btn-consultar-cnpj" class="btn-consultar-cnpj">Consultar</button>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="campo">
+
+          <label for="cliente">
+            Nome do cliente
+          </label>
+
+          <div class="input-box">
+
+            <span class="input-icon">
+              🏬
+            </span>
+
+            <input
+              type="text"
+              id="cliente"
+              autocomplete="off"
+              placeholder="Nome do estabelecimento"
+            >
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ===================================================
+         PRODUTOS
+    ==================================================== -->
+
+    <section class="card produtos-card">
+
+      <div class="card-top">
+
+        <span class="card-number">
+          03
+        </span>
+
+        <span class="card-line"></span>
+
+        <span class="card-status">
+          PRODUTOS
+        </span>
+
+      </div>
+
+
+      <div class="produtos-header">
+
+        <div class="card-header">
+
+          <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 8-9-5-9 5 9 5 9-5Z"/><path d="M3 8v9l9 5 9-5V8"/><path d="M12 13v9"/></svg></div>
+
+          <div>
+
+            <h2>
+              Controle de Validades
+            </h2>
+
+            <p>
+              Registre produto, preço pago, validade, quantidade e observações
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <button
+          type="button"
+          class="btn-adicionar"
+          onclick="adicionarProduto()"
+        >
+
+          <span class="btn-plus">
+            +
+          </span>
+
+          <span>
+            Adicionar produto
+          </span>
+
+        </button>
+
+      </div>
+
+
+      <div
+        id="produtos"
+        class="lista-produtos"
+      ></div>
+
+    </section>
+
+
+
+    </div>
+
+
+    <!-- ===================================================
+         LEGENDA
+    ==================================================== -->
+
+    <section class="legenda-validade">
+
+      <div class="legenda-titulo">
+        <span class="legenda-icone">📊</span>
+
+        <div>
+          <strong>
+            Indicador de validade
+          </strong>
+
+          <small>
+            O status será calculado automaticamente pelo sistema.
+          </small>
+        </div>
+      </div>
+
+
+      <div class="legenda-items">
+
+        <div class="legenda-item verde">
+          <i></i>
+          <span>
+            +30 dias
+          </span>
+        </div>
+
+        <div class="legenda-item amarelo">
+          <i></i>
+          <span>
+            16–30 dias
+          </span>
+        </div>
+
+        <div class="legenda-item laranja">
+          <i></i>
+          <span>
+            8–15 dias
+          </span>
+        </div>
+
+        <div class="legenda-item vermelho">
+          <i></i>
+          <span>
+            0–7 dias
+          </span>
+        </div>
+
+        <div class="legenda-item preto">
+          <i></i>
+          <span>
+            Vencido
+          </span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ===================================================
+         CONFIRMAR
+    ==================================================== -->
+
+    <div class="confirmacao-area">
+
+      <div class="confirmacao-info">
+
+        <span class="confirmacao-icone">
+          ✓
+        </span>
+
+        <div>
+
+          <strong>
+            Pronto para enviar?
+          </strong>
+
+          <span>
+            Confira os dados e registre a visita do cliente.
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <button
+        type="button"
+        class="btn-confirmar"
+        onclick="salvar()"
+      >
+
+        <span class="check">
+          ✓
+        </span>
+
+        <span class="texto-botao">
+          CONFIRMAR REGISTRO
+        </span>
+
+        <span class="seta">
+          →
+        </span>
+
+      </button>
+
+    </div>
+
+
+
+    <!-- ===================================================
+         MENSAGEM
+    ==================================================== -->
+
+    <div
+      id="mensagem"
+      class="mensagem"
+    ></div>
+
+
+  </main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <div id="aviso-validade" class="aviso-validade" role="dialog" aria-modal="true" aria-labelledby="aviso-titulo">
+    <div class="aviso-icon">✓</div>
+    <div class="aviso-conteudo">
+      <strong id="aviso-titulo">Registro enviado com sucesso</strong>
+      <p>As informações foram registradas neste dispositivo. Lembre-se: as validades devem estar com <b>30 dias ou mais</b>. O envio para a Red Bull acontece nos dias <b>01 e 15 de cada mês</b>. Mantenha os clientes programados para o próximo envio.</p>
+      <button type="button" class="aviso-ok" aria-label="Confirmar e fechar aviso" onclick="fecharAvisoValidade()">OK</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">DEYCON</div>
+    <span>Controle de Validades • Red Bull</span>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
